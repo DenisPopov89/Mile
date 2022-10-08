@@ -1,18 +1,7 @@
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
         int amount = 5000;
-        boolean bought = true;
-
-        int mile;
-        if (bought) {
-            mile = 1;
-        } else {
-            mile = 0;
-        }
-
-        int bonus = amount / 20 * mile;
+        int bonus = amount / 20 * 1;
 
         if (bonus < 1) {
             bonus = 1;
